@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: generalFont;
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+    background-image: url(../images/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes icoAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#welcome{
+    text-align: center;
+    font-family: generalFont;
+    width: 100vw;
+    text-shadow: 1px 3px 3px white;
+}
+
+#welcome h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+#welcome p{
+    font-size: 25px;
+}
+
+#ico{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    animation: icoAnimation 1s ease-in-out alternate 8 both;
+}
