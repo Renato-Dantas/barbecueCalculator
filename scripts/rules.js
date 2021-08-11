@@ -73,3 +73,14 @@ function writeText(beer, meat, soda, bread, sausage){
     $('#breadText').text(`Total of Garlic Bread: ${bread} units`)
     $('#sausageText').text(`Total of Sausage: ${sausage} kgs`)
 }
+
+function resetAll(){
+    $('#beerText').text('')
+    $('#meatText').text('')
+    $('#sodaText').text('')
+    $('#breadText').text('')
+    $('#sausageText').text('')
+    adults.val('')
+    kids.val('')
+    hours.val('')
+}

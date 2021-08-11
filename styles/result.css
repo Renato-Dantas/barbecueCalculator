@@ -1,7 +1,9 @@
+@font-face {
+    font-family: resultFont;
+    src: url(../fonts/GowunDodum-Regular.ttf);
+}
 #results{
-    /* border: 1px solid black; */
     margin-top: 20px;
-    /* background-color: white; */
     background-image: url(../icons/adults.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +12,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: resultFont;
+    font-size: 20px;
 }
 
 @keyframes resultAnimation {
@@ -24,7 +28,8 @@
 }
 
 .resultArea{
-    width: 40vw;
+    margin-top: 20px;
+    width: 70vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

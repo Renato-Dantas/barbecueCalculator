@@ -33,10 +33,9 @@ function skipMain(){
     setTimeout(()=>{
         $('#welcome').slideUp(1000)
     },8000)
-
 }
 
-// $('#welcome').css('display', 'none')
+// $('#welcome').css('display', 'none') Maintenance line only
 $('#calculator').css('display', 'none')
 $('#bt').css('display', 'none')
 
@@ -51,21 +50,22 @@ setTimeout(()=>{
 $('#results').css('display', 'none')
 
 
-let bt = $('#bt').click(()=>{
-    $('#calculator').slideUp(1000)
-    $('#results').css('display', 'flex')
-    calcTotal()
-    setTimeout(()=>{
-        bt.text('Calculate Again?')
-    }, 2000)
-    // bt.click(()=>{
-    //     $('#results').slideUp(1000)
-    //     $('#calculator').slideDown(2000)
-    // })
-    
-
-
+let btn = $('#bt').click(()=>{
+    if (btn.text() == 'Calculate'){
+        $('#calculator').slideUp(1000)
+        $('#results').css('display', 'flex')
+        calcTotal()
+        setTimeout(()=>{
+            btn.text('Calculate Again?')
+        }, 2000)
+    }else{
+        resetAll()
+        $('#results').css('display', 'none')
+        $('#calculator').css('display', 'flex')
+        btn.text('Calculate')
+    }
 })
+
 
 typeWriter()
 transitionIcos()

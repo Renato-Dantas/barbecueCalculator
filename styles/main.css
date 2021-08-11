@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: secondFont;
-    src: url(../fonts/NotoSans-Regular.ttf);
+    src: url(../fonts/GowunDodum-Regular.ttf);
 }
 
 .ipt{
@@ -45,7 +45,7 @@ label{
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 90%;
 }
 
 .imgLine{
@@ -61,9 +61,9 @@ label{
     background-color: #DE514E;
     font-family: secondFont; 
     font-size: 15px;
-    /* MUDAR A FONTE AQ */
     font-weight: bolder;
     transition: all .5s;
+    margin: 20px 0;
 }
 
 #bt:hover{

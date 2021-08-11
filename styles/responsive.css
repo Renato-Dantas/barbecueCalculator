@@ -1,0 +1,36 @@
+@media  screen and (max-width:650px) {
+    /* Result Area */
+    #results{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .resultArea{
+        width: 80vw;
+    }
+}
+
+
+@media  screen and (max-width:400px) {
+    /* Introduction */
+    #wewlcome h1{
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    #welcome p{
+        font-size: 20px;
+    }
+
+    /* Result Area */
+    #results{
+        font-size: 15px;
+        padding: 25px;
+    }
+    .resultArea{
+        width: 90vw;
+    }
+    .resultIco{
+        width: 60px;
+    }
+}
+

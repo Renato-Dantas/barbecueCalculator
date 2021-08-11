@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: orange;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @font-face {
     font-family: generalFont;
     src: url(../fonts/Righteous-Regular.ttf);
@@ -14,11 +21,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: orange;
-    background-image: url(../images/back.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: auto;
 }
 
 @keyframes icoAnimation {
