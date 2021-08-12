@@ -2,7 +2,7 @@ window.onload
 
 function transitionIcos(){
     setTimeout(()=>{
-        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/beer.png')
+        $('#ico').attr('src', 'icons/beer.png')
     },2000)
 
     setTimeout(()=>{
