@@ -6,11 +6,11 @@ function transitionIcos(){
     },2000)
 
     setTimeout(()=>{
-        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/chicken.png')
+        $('#ico').attr('src', 'icons/chicken.png')
     },4000)
 
     setTimeout(()=>{
-        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/barbecue.png')
+        $('#ico').attr('src', 'icons/barbecue.png')
         setTimeout(()=>{
             $('#ico').css('animation-name', 'none')
         },500)
