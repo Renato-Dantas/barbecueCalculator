@@ -2,15 +2,15 @@ window.onload
 
 function transitionIcos(){
     setTimeout(()=>{
-        $('#ico').attr('src', '../icons/beer.png')
+        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/beer.png')
     },2000)
 
     setTimeout(()=>{
-        $('#ico').attr('src', '../icons/chicken.png')
+        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/chicken.png')
     },4000)
 
     setTimeout(()=>{
-        $('#ico').attr('src', '../icons/barbecue.png')
+        $('#ico').attr('src', 'https://renato-dantas.github.io/barbecueCalculator/icons/barbecue.png')
         setTimeout(()=>{
             $('#ico').css('animation-name', 'none')
         },500)
